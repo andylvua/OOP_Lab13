@@ -3,7 +3,7 @@ package ua.edu.ucu.apps.task1;
 import java.util.function.Consumer;
 
 public class Signature<T> extends Task<T> {
-    public Consumer<T> consumer;
+    public final Consumer<T> consumer;
     public Signature(Consumer<T> consumer) {
         this.consumer = consumer;
     }
