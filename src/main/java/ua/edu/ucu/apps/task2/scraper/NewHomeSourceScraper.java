@@ -6,7 +6,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 public class NewHomeSourceScraper extends Scraper {
-    @Override
     public List<String> scrape(String location) {
         List<String> output = List.of();
         Document doc;

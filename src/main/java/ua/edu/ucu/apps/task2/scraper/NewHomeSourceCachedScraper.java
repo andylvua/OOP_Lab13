@@ -8,7 +8,6 @@ import java.util.List;
 public class NewHomeSourceCachedScraper extends Scraper {
     private final NewHomeSourceScraper generalScraper = new NewHomeSourceScraper();
 
-    @Override
     public List<String> scrape(String location) throws SQLException {
         List<String> output;
         location = location.toLowerCase();
